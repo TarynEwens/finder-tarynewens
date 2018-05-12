@@ -23,9 +23,12 @@ I then worked on styling key areas such as the header and text, followed by the 
 
 Most of my time was spent on the navigation. I felt a dropdown made sense for the "More" link, and I spent a lot of time researching the best way to make a dropdown menu fully accessible but all of the solutions I found required an immense amount of Javascript code which I felt took the project outside the scope of "code is easily understood".
 
+I also had a problem on mobile devices where the dropdown won't disappear unless you touch another menu item. Again, my research led me to a lot of solutions but all of which required large amounts of Javascript plus JQuery and plugins.
+
 Once most of the styling was complete I tackled the Javascript, to create the XMLHttpRequest needed to access the JSON data provided. It was then simply a case of using that data to populate the articles, and style them as needed.
 
 Finally, a quick code clean up to remove any css code I had never used.
 
 ## To do if I had more time:
 - [ ] Spend a lot of time studying web accessibility, and trying to find the best solution for the dropdown menu
+- [ ] Find a solution to the dropdown menu being fully responsive on mobile devices.
