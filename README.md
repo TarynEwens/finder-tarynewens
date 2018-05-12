@@ -1,7 +1,7 @@
 # Page Layout + Listing
 #### by [Taryn Ewens](https://github.com/tarynelise).
 
-See it in action here: https://github.com/finder-tarynewens
+See it in action here: https://tarynelise.github.io/finder-tarynewens/
 
 
 ## My Objectives
