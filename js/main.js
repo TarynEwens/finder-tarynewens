@@ -9,7 +9,6 @@ request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 request.onload = function() {
-  console.log(request.response);
   const results = request.response;
   populateArticles(results);
 }
