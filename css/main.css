@@ -22,13 +22,13 @@ main {
 
 aside {
   width: 40%;
-  margin: 15px 0 5px 10px;
+  margin: 15px 0 10px 10px;
   padding: 1.7em;
 }
 
 .body-container {
   max-width: 1024px;
-  margin: 2em auto;
+  margin: 0 auto;
   padding: 8px;
   background-color: #CCC;
 }
@@ -177,4 +177,29 @@ ul.show-menu {
 .nav ul a:focus {
   background: #182F4D;
   color: #FFF;
+}
+
+.individual-post {
+  margin: 1.55em 0;
+  padding: .5em;
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 1em;
+}
+
+.individual-post:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#articles a {
+  color: #2988FF;
+  font-weight: 700;
+}
+
+#articles a:hover {
+  color: #182F4D;
+}
+
+#articles p {
+  font-size: .9em;
 }
