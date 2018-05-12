@@ -21,6 +21,7 @@ main {
 aside {
   width: 40%;
   margin: 15px 0 5px 10px;
+  padding: 1.7em;
 }
 
 .body-container {
@@ -54,22 +55,42 @@ h1 {
 
 h2, h3 {
   color: #2988FF;
+  margin: 0 0 8px 0;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
 }
 
 img {
-  max-width: 280px;
+  width: 100%;
 }
 
 blockquote {
-  border-left: 4px solid #182F4D;
+  border-left: 5px solid #182F4D;
   padding: 0 1em 0 1em;
-  margin: 0;
+  margin: 1em 0 0.5em 0;
   line-height: 1.5em;
-  font-size: 1.2em;
+  font-size: 1.15em;
+  width: 90%;
 }
 
 cite {
   margin: 0.5em 0 0 0;
   display: block;
   font-size: 0.65em;
+}
+
+button {
+  margin: 5px 0 5px 0;
+}
+
+.image-of-week {
+  border-bottom: 2px solid #CCC;
+  margin-bottom: 20px;
+  padding-bottom: 18px;
 }
