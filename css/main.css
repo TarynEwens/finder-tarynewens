@@ -84,6 +84,16 @@ cite {
 
 button {
   margin: 5px 0 5px 0;
+  padding: 1em;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 0.85em;
+  border: none;
+  background-color: #2988FF;
+}
+
+button:hover {
+  background-color: #182F4D;
 }
 
 .image-of-week {
