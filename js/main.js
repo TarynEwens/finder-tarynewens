@@ -2,6 +2,7 @@ const requestURL = 'https://raw.githubusercontent.com/finderau/recruitment/maste
 let article;
 let story;
 let header;
+let snippet;
 
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -31,5 +32,4 @@ articles = document.querySelector('#articles')
     container.appendChild(snippet);
     articles.appendChild(container);
   }
-
 }
